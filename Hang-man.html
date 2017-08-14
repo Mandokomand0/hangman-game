@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>WW2 Hangman Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script src="JavascriptPart.js"></script>
+
+
+</head>
+
+<body>
+  <header>
+    <h1>WW2 Hangman</h1></header>
+  <h2>Click Start Button to begin</h2>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="panel-panel-default">
+          <div class="panel-body">
+            <div class="text-center">
+              <button id="start-button" class="btn btn-success btn-sm"><h5><span class="glyphicon glyphicon-play"></span> Start</h5></button>
+              <!--button id="picture-button" class="btn btn-info btn-sm"><h5><span class="glyphicon glyphicon-picture"></span> Picture Hint</h5></button-->
+              <button id="text-hint-button" class="btn btn-info btn-sm"><h5><span class="glyphicon glyphicon-pencil"></span> Text Clue</h5></button>
+              <button id="loser-button-XD" class="btn btn-danger btn-sm"><h5><span class="glyphicon glyphicon-remove-sign"></span> Give Up?</h5></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="row">
+      <!--Main Content Area-->
+      <div class="col-lg-12">
+        <div class="panel-panel-default">
+          <div class="panel-body">
+
+            <!-- hint-->
+            <div class="row">
+              <div class="col-xs-6">
+                <div class="panel-panel-default">
+                  <div class="panel-body">
+                    <p id="hinting">Click the Text Clue button to recieve a hint. <br> However, it will cost you 3 attempts.</p>
+                  </div>
+                  <!--Answer input area-->
+                  <div class="col-xs-6">
+                    <div class="panel-panel-default">
+                      <div class="panel-body">
+                        <h3 id="display">Press start to begin. Then press any key to guess.</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+
+              <!--Results-->
+              <div class="col-xs-6" id="remaining-guesses">
+
+              </div>
+
+              <!--Letters guessed section-->
+              <div class="col-xs-6" id="guessed-letters">
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+
+
+  </div>
+  <footer>Enjoy</footer>
+
+<script type="text/javascript">
+
+
+
+  </script>
